@@ -1,0 +1,18 @@
+.slider-home {
+
+    z-index: -1;
+}
+
+.next-match  {
+    position: absolute;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    margin-top: -50px;
+}
+
+.last-news {
+    margin-top: 300px;
+}

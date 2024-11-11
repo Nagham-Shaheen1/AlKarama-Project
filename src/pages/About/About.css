@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.page {
+    width: inherit;
+}
+
+.about-team {
+    width: 80vw;
+    translate: 10% -50px;
+    height:50vh;
+    margin-bottom: 20vw;
+
+}
+.top {
+    width: 100%;
+}
+.technical-staff {
+    margin-bottom: 20px;
+}
+.team-players {
+    margin-bottom: 150px;
+}
+.strategy-of-team {
+margin-bottom: 30px;
+}
+.fans {
+    margin-top: 30px;
+}

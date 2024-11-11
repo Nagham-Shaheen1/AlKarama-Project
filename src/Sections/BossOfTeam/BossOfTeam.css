@@ -1,0 +1,124 @@
+:root {
+    --orange-logo: #F60;
+    --blue-logo: #194E95;
+    --dark: hsl(30, 9%, 22%);
+}
+
+.bos-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+
+}
+
+.header {
+    color: var(--orange-logo, #F60);
+    font-family: 'Cairo';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.content {
+    border-radius: 10.5px;
+    border: 6px solid var(--blue-logo, #194E95);
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    translate: 50px;
+    width: 80%;
+}
+
+.name {
+    color: var(--dark, #3C3732);
+    font-family: 'Cairo';
+    font-size: 64.003px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 450px;
+}
+
+.inner-name {
+    color: var(--dark, #3C3732);
+    font-family: Cairo;
+    font-size: 36.002px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+}
+
+.pic4 {
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 546px;
+
+}
+
+.pic3 {
+    width: 600px;
+    height: 546px;
+
+    background-color: #194E95;
+    background: url('../../assets/images/ahad_khazzam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    translate: 28px -79px;
+}
+
+.line1 {
+    display: flex;
+    justify-content: center;
+    translate: 0 -8px;
+    margin-bottom: 100px;
+
+}
+
+.square {
+    width: 511px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: #194E95;
+    position: absolute;
+    translate: 52px 90px;
+}
+@media (max-width:1044px) {
+    .square {
+        width: 35%;
+        height: 55%;
+        border-radius: 10px;
+        background-color: #194E95;
+        position: absolute;
+        translate: 42px 80px;
+      }
+      .pic3 {
+        width: 40vw;
+        height: 50vw;
+        background-color: #194E95;
+        background: url('../../assets/images/ahad_khazzam.png');
+          background-repeat: repeat;
+          background-size: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        translate: 1px -20px;
+      }
+    
+}

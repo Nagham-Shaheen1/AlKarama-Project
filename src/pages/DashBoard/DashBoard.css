@@ -1,0 +1,9 @@
+.content-dash {
+    direction: rtl;
+}
+.left-navbar {
+    position: fixed;
+    background-color: rgb(4, 70, 70);
+    height:100vh;
+    box-shadow: 1px 1px 1px;
+}

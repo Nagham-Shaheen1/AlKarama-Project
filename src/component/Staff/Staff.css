@@ -1,0 +1,33 @@
+.card-staff {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.square-staff {
+    width: 210px;
+    height: 400px;
+    background-color: #194E95;
+    translate: 15px 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+.square1-staff {
+    width: 20px;
+    height: 171px;
+    background-color: #194E95;
+    translate: -104px -89px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.img3 {
+    width: inherit;
+    height: inherit;
+}

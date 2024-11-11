@@ -1,0 +1,55 @@
+.advertisements {
+    position: relative;
+    margin-bottom: 20px;
+    height:370px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .advertisement-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    transform: scale(0.5);
+    transform-origin: top center;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+  
+  .advertisement-item h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .advertisement-item p {
+    margin: 0;
+  }
+  
+  .advertisement-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    left:90vw;
+    top:20vh;
+    z-index: 20;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close-button:hover {
+   
+    background-color: #FF0000;
+  }

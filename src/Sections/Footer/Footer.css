@@ -1,0 +1,151 @@
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../../assets/images/footerpic.jpg');
+    background-color: lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 9.071px;
+    direction: rtl;
+}
+
+.footer-background {
+    width: inherit;
+    background: rgba(51, 55, 69, 0.90);
+    border-radius: 9.071px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+div>hr {
+    margin-top: 100px;
+    width: 90%;
+    height: 3px;
+    margin: 0px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.header-footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CAD8DB;
+
+    /* Heading/6 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    /* 19.8px */
+}
+
+.links-footer {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-links-text {
+    color: #CAD8DB;
+
+    /* Other/Menu M */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 16px */
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.footer-icon .pis{
+    color: #CAD8DB;
+    text-align: right;
+
+    /* العنوان2 */
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sponsors {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.sponsors p {
+    color: #CAD8DB;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sponsors img {
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #CAD8DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+.img-sponsors {
+    display: flex;
+    gap: 10px
+}
+
+.logo-alkarama img {
+    position: absolute;
+    width: 120.069px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-color: transparent;
+    left: 82%;
+    margin-top: 50px;
+
+}

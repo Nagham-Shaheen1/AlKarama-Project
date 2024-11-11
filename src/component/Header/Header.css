@@ -1,0 +1,9 @@
+.header {
+    color: var(--orange-logo, #F60);
+    font-family: 'Cairo';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}

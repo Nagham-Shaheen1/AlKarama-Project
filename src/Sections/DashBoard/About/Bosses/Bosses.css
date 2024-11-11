@@ -1,0 +1,73 @@
+.bosses-list {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Cairo, sans-serif;
+}
+
+div form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bosses-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.bosses-list .add-bosses-form input[type="text"],
+.bosses-list .add-bosses-form input[type="number"],
+.bosses-list .add-bosses-form input[type="date"] {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.bosses-list .add-icon {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.bosses-list .add-icon:hover {
+    color: #4caf50;
+}
+
+.bosses-list .bosses-table {
+    width: inherit;
+    border-collapse: collapse;
+}
+
+.bosses-list .bosses-table th,
+.bosses-list .bosses-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.bosses-list .bosses-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.bosses-list .bosses-table td:last-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bosses-list .delete-icon,
+.bosses-list .edit-icon {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.bosses-list .delete-icon:hover,
+.bosses-list .edit-icon:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,9 @@
+export {default as Home} from './Home/Home';
+export {default as About} from './About/About';
+export {default as History} from './History/History';
+export {default as Login} from './Login/Login';
+export {default as Matches} from './Matches/Matches';
+export {default as News} from './News/News';
+export {default as ContactUs} from './ContactUs/ContactUs';
+export {default as OnLive} from './OnLive/OnLive'
+export {default as DashBoard} from './DashBoard/DashBoard'

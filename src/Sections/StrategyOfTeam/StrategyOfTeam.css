@@ -1,0 +1,117 @@
+.fulling-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.forth-strategy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    translate: 0 30px;
+}
+
+
+.col2>div,
+.col1>div {
+    border-left: #F60 solid 5px;
+    border-top: #F60 solid 5px;
+    stroke-width: 14px;
+    stroke: var(--orange-logo, #F60);
+    width: 80%;
+    height: 200px;
+    text-align: right;
+    box-shadow: 2px 2px 15px rgba(119, 119, 119, 0.5);   }
+
+.col1 div p,.col2 div p {
+    font-family: 'Cairo';
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 20px;
+}
+
+ul li:before {
+    content: "*";
+    padding-right: 5px;
+  }
+.str-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F60;
+    color: white;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    translate: 24px -45px;
+    font-size: 50px;
+    font-family: 'Cairo';
+}
+
+.col1 p.str-header,
+.col2 p.str-header {
+    color: #1C1A18;
+
+    /* العنوان 4 كايرو 54 */
+    font-family: 'Cairo';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.col1 ul,
+.col2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    font-family: 'Cairo';
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 80px;
+    direction: rtl;
+    padding-right: 20PX;
+}
+
+.col1 li,
+.col2 li {
+    width:fit-content;
+    height: 15px;
+}
+
+.str1 ,.str2 {
+    translate: 20px;
+}
+
+.str3 , .str4 {
+    translate:-20px ;
+   
+}

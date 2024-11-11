@@ -1,0 +1,31 @@
+/* Card.css */
+.card {
+    border-top: 7px solid orange !important;/* Add an orange border */
+    border-left: 7px solid orange !important;
+    border-radius:10px 5px 10px 5px;
+    padding: 16px;
+    margin: 10px;
+    width: 400px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-size: 1.6em;
+    margin: 10px auto;
+}
+
+.card-description {
+    font-size: 20px;
+    color: #555;
+    text-align: end;
+    font-family:'Roboto';
+    
+}
