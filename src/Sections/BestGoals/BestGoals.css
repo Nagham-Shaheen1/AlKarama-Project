@@ -1,0 +1,28 @@
+.sub-videos {
+    font-size: 8px;
+    direction: rtl;
+    margin-top: 25px;
+}
+.headding-best-videos {
+    margin-top: 50px;
+}
+.headding-best-videos p {
+    font-family: 'Cairo';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.vid-top a {
+    width: 70%;
+    
+}
+
+.pic-vid {
+    width: 25%;
+    height:100%;
+}
+.vid {
+    margin:20px
+}

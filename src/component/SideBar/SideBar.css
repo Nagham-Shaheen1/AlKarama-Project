@@ -1,0 +1,55 @@
+.left-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-nav img{
+    width:90px;
+    height:90px;
+    margin-bottom: 0px;
+}
+
+.left-nav h2.team-name-dash {
+    color:orange;
+    font-family: 'Cairo';
+    font-size: 30px;
+    text-align:center;
+}
+
+.left-nav a {
+    text-decoration: none;
+}
+
+.left-nav a {
+    align-self: center;
+    color: orange;
+    border: solid 1px orange;
+    border-radius: 10px;
+    font-weight: 200;
+    width: 7em;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Cairo';
+
+
+}
+
+.left-nav p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:inherit;
+}
+
+
+
+.left-nav >.active {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}

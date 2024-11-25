@@ -1,0 +1,174 @@
+:root {
+    --background: #FEFEFE;
+}
+
+div.parent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: calc(110vw - 300px);
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 6px solid #F4AA5F;
+    background: var(--background, #FEFEFE);
+    /*Shadow*/
+    box-shadow: 0px 16px 25.5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head {
+    color: #F60;
+    font-family: 'Cairo';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.rw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 150px);
+    gap: 20px;
+
+}
+
+.rw .pic {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    position:relative;
+}
+.rw .pic .img2 {
+    background-size: cover;
+    width: 420px;
+    height: 86%;
+    position: absolute;
+    z-index: 1;
+}
+
+.rw .pic .img1 {
+    background-size: cover;
+    width: 400px;
+    z-index: 2;
+}
+
+.rw .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 3;
+    text-align: right;
+    background-color: var(--background);
+    translate: -38px;
+}
+
+.rw .text p {
+    width: 40vw
+}
+
+
+.rw .text .innerhead {
+    text-align: center;
+    color: #F60;
+    text-align: center;
+    font-family: 'Cairo';
+    font-size: 32.311px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.rw .text .innertext {
+    width: 50%;
+    color: var(#3C3732);
+    text-align: right;
+    font-family: 'Cairo';
+    font-size: 21.547px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rw .text .formore {
+    display: flex;
+    translate: 200px 40px;
+    width: 319.253px;
+    height: 93.014px;
+    padding: 0px 19.386px;
+    justify-content: center;
+    align-items: center;
+    gap: 29.079px;
+    flex-shrink: 0;
+    align-self: baseline;
+    cursor: pointer;
+}
+
+.rw .text .formore:hover {
+    opacity: .5;
+}
+
+.rw .text .formore p {
+    color: #737A80;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Cairo';
+    font-size: 30.547px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.rw .text .formore img {
+    width: 50px;
+    height: auto
+}
+
+
+@media (max-width:1044px) {
+    .rw .text .formore p {
+        font-size: 14.547px;
+    }
+
+    .rw .text .formore {
+        width: fit-content;
+        height: 43.014px;
+        translate: 100px;
+
+    }
+
+    .rw .text .innertext p {
+        width: 30vw;
+        font-size: 14.547px;
+    }
+
+    .rw .text .innerhead {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .rw .pic .img2 {
+        height: 75%;
+    }
+
+    .head {
+        font-size: 30px;
+    }
+
+    div.parent {
+        height: fit-content;
+
+    }
+
+}
+
+@media (min-width: 1045px)and (max-width:1200px) {
+    .rw .pic .img2 {
+        height: 80%;
+    }
+}

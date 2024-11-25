@@ -1,0 +1,82 @@
+:root {
+    --Rectangle-65: #E6691F;
+}
+
+.card-for-next-match {
+    
+    border-radius: 10.534px;
+    background: #FFF;
+    padding: 41.26px 78px;
+    box-shadow: 0px 5.413px 5.413px 0px rgba(0, 0, 0, 0.25);
+    gap: 20px;
+    flex-shrink: 0;
+    width: 695px;
+    height: 316px;
+    
+   
+}
+
+.all-teams {
+    translate: 5px -50px;
+}
+
+.card-for-next-match .header-next-match {
+    color: #1B55A2;
+    text-align: center;
+    font-family: 'Cairo';
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.center-card .timming-next-match {
+    color: #10278F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.center-card .vs {
+    color: var(--Rectangle-65, #E6691F);
+    font-family: 'Cairo';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.first-team,.second-team {
+    position: relative;
+}
+
+.first-team>img,
+.second-team>img {
+    position: absolute;
+}
+
+.first-team .img-for-teams,
+.second-team .img-for-teams { width:80px;height:80px
+     ;}
+
+.all-teams {
+    gap: 50px;
+    width: 100%;
+}
+
+div .team-name {
+    translate: 0 100px;
+    color: #1B55A2;
+    text-align: center;
+    font-family: 'Cairo';
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

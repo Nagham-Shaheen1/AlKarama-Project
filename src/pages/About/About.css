@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.page {
+    width: inherit;
+}
+
+.about-team {
+    width: 80vw;
+    translate: 10% -50px;
+    height:50vh;
+    margin-bottom: 20vw;
+
+}
+.top {
+    width: 100%;
+}
+.technical-staff {
+    margin-bottom: 20px;
+}
+.team-players {
+    margin-bottom: 150px;
+}
+.strategy-of-team {
+margin-bottom: 30px;
+}
+.fans {
+    margin-top: 30px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .nav {
+    width: 100%;
+  }
+  
+  .container-fluid {
+    width: 100%;
+  }
+  
+  .about-team, .boss, .technical-staff, .team-players, .strategy-of-team, .fans, .about-fan, .footer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .about-team, .boss, .technical-staff, .team-players, .strategy-of-team, .fans, .about-fan, .footer {
+      padding: 15px;
+    }
+  
+    .about-team h1, .about-team p {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-team h1, .about-team p {
+      font-size: 1em; /* Further adjust font size for very small screens */
+    }
+  
+    .about-team img {
+      width: 100%; /* Ensure images are responsive */
+      height: auto;
+    }
+  }

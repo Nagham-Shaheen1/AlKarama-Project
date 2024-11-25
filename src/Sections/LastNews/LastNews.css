@@ -1,0 +1,38 @@
+.news-top-text1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:fit-content;
+    z-index: 4;
+}
+.news-top-text1 div {
+    position: absolute;
+
+
+}
+.images-and-text img {
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+.cf {
+    height: 300px;
+}
+
+.news-top-text1  .news-top-header1 {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Cairo';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+}
+.last-news {
+    margin: 0;
+}

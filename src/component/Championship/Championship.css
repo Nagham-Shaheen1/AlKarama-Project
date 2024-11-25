@@ -1,0 +1,50 @@
+.champion-image {
+  background-color: #194e95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.champion-image img {
+  background-size: contain;
+  width: max-content;
+  height: 100%;
+}
+
+.texting {
+  color: #3c3732;
+  font-size: 35px;
+  padding: 20px 70px;
+  text-align: justify;
+  direction: rtl;
+}
+
+.texting div {
+  padding: 50px;
+}
+
+.texting p {
+  background-color: #194e95;
+  color: whitesmoke;
+  width: fit-content;
+  padding: 20px 40px;
+  font-size: 56px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  height: fit-content;
+
+}
+
+@media (max-width:1000px) {
+  .texting div {
+    font-size: 26px;
+    padding: 50px;
+  }
+
+  .champion-image {
+    height: 600px;
+    padding: 30px;
+  }
+}

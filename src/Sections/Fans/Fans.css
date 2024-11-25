@@ -1,0 +1,48 @@
+.fan-card {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fan-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    z-index: 0;
+    height: 80%;
+    translate: 0 -150px;
+}
+
+.fan-pic {
+    background-image: url('../../assets/images/fans.png');
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    background-size: contain;
+    translate: -291px -77px;
+}
+
+.fan-header {
+    z-index: 1;
+}
+
+.fan-bg {
+
+    background-image: url('../../assets/images/fanpic.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 900px;
+    height: 700px;
+    translate: 0 150px;
+    position: fixed;
+}
+

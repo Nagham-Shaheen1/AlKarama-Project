@@ -1,0 +1,15 @@
+.history {
+    position:relative;
+}
+.nav-his {
+position:absolute;
+z-index:5;
+}
+.about-team1 {
+        width: 80vw;
+        translate: 10% 0;
+        height:50vh;
+        margin-bottom: 35vw;
+    
+    
+}

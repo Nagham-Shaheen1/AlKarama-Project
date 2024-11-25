@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-us {
+    background-image: url('../../assets/images/contactus-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.col-for-form {
+    height: 100vh;
+    background-color: rgba(18, 42, 138, 0.80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-of-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+}
+
+.logo-of-team img {
+
+    width: 60%;
+}
+
+div form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%
+}
+
+div form input {
+    direction: rtl;
+    display: flex;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #CAD8DB;
+    background-color: transparent;
+    color: #CAD8DB;
+    margin-top: 20px;
+}
+
+div form .text-aria {
+    height: 100px;
+}
+
+.lines-and-logos {
+    height: 100vh;
+}
+
+.lines-white {
+    width: 2px;
+    height: 48%;
+    background-color: white;
+}
+
+div p.contact-with-us {
+    color: #CAD8DB;
+    font-family: 'Dubai', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    /* 44px */
+    margin-bottom: 10%;
+
+}
+
+div form button {
+    margin-top: 20px;
+    display: flex;
+    width: 50%;
+    padding: 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #CAD8DB;
+    color: #122A8A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.contact-logos {
+    width: 90%
+}
+
+.typeing p {
+    color: #CAD8DB;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 153.846% */
+    letter-spacing: 0.26px;
+}
+
+.inner-typeing p {
+    color: #CAD8DB;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.naving {
+    background-color: white;
+}
+
+.footer {
+    margin-top: -100px;
+}

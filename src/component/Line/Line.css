@@ -1,0 +1,6 @@
+.line {
+    width: 411px;
+    height:6px;
+    background-image: linear-gradient(to right,  #F60 75%, #194E95 25%);
+    border-radius: 3px ;
+}

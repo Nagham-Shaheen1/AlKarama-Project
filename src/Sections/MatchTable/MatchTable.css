@@ -1,0 +1,63 @@
+.head-table {
+    font-family: 'Cairo';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: black;
+}
+
+.burger-button {
+    background-image: url('../../assets/images/burger_button.png');
+    width: 29.98px;
+    height: 18.74px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.burger-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+.table1 {
+    direction: rtl;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div table thead {
+    border-bottom: rgba(112, 112, 112, 1) 5px;
+    background-color: rgba(16, 39, 143, 1);
+
+
+}
+
+.table1 table thead tr td {
+    font-family: 'Cairo';
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.table1 table tbody tr td {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.table1 table tbody,
+.table1 table thead {
+    border-bottom: 3px solid grey;
+}

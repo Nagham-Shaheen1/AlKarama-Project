@@ -1,0 +1,100 @@
+.card-matching {
+    background-image: url('../../assets/images/BG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:354px;
+    height:207px;
+    gap: 8px;
+    
+}
+
+div .match-date {
+    font-family: Cairo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(27, 85, 162, 1);
+
+}
+
+div .match-time {
+    font-family: 'Cairo';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(27, 85, 162, 1);
+
+}
+ div .stage {
+    font-family: Cairo;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+ div .the-result {
+    font-family: Cairo;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(255, 99, 3, 1);
+ }
+
+ div .team1-name {
+    font-family: Cairo;
+font-size: 20px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(27, 85, 162, 1);
+ }
+
+ div .status {
+    font-family: Cairo;
+font-size: 8px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(27, 85, 162, 1);
+
+ }
+
+ div .imaging{
+    width: 51px;
+ }
+ .items-for-two-teams {
+    translate: 0 -20px;
+ }
+ @media (max-width: 1144px) {
+    .items-for-two-teams {
+        translate: 0 -35px;
+      }
+      .card-matching {
+       
+        width: auto;
+        gap: 0px;
+        
+      }
+      div .stage {
+        font-size: 12px;
+        
+      }
+      div .the-result {
+        font-size: 30px;
+      
+      }
+      div .team1-name {
+        font-size: 14px;
+       
+      }
+}
